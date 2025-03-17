@@ -11,36 +11,35 @@ gsap.registerPlugin(ScrollTrigger)
 const Marquee = () => {
     const component = useRef()
     const slider = useRef()
-    const [hoveredLogo, setHoveredLogo] = useState(null)
     const [activeTab, setActiveTab] = useState("skills")
 
-    // Tech logos with categories and proficiency
+    // Tech logos
     const logosSet1 = [
-        { src: "/icons/bootstrap.png", name: "Bootstrap", category: "Frontend", proficiency: 90 },
-        { src: "/icons/dart.png", name: "Dart", category: "Mobile", proficiency: 85 },
-        { src: "/icons/docker.png", name: "Docker", category: "DevOps", proficiency: 80 },
-        { src: "/icons/excel.png", name: "Excel", category: "Tools", proficiency: 95 },
-        { src: "/icons/figma.png", name: "Figma", category: "Design", proficiency: 85 },
-        { src: "/icons/flutter.png", name: "Flutter", category: "Mobile", proficiency: 90 },
-        { src: "/icons/git.png", name: "Git", category: "DevOps", proficiency: 95 },
-        { src: "/icons/github.png", name: "GitHub", category: "DevOps", proficiency: 95 },
-        { src: "/icons/go.png", name: "Go", category: "Backend", proficiency: 75 },
-        { src: "/icons/java.png", name: "Java", category: "Backend", proficiency: 95 },
-        { src: "/icons/js.png", name: "JavaScript", category: "Frontend", proficiency: 95 },
+        { src: "/icons/bootstrap.png"},
+        { src: "/icons/dart.png"},
+        { src: "/icons/docker.png"},
+        { src: "/icons/excel.png"},
+        { src: "/icons/figma.png"},
+        { src: "/icons/flutter.png"},
+        { src: "/icons/git.png"},
+        { src: "/icons/github.png"},
+        { src: "/icons/go.png"},
+        { src: "/icons/java.png"},
+        { src: "/icons/js.png"},
     ]
 
     const logosSet2 = [
-        { src: "/icons/kali.png", name: "Kali Linux", category: "Tools", proficiency: 80 },
-        { src: "/icons/mongodb.png", name: "MongoDB", category: "Database", proficiency: 90 },
-        { src: "/icons/node.png", name: "Node.js", category: "Backend", proficiency: 90 },
-        { src: "/icons/photoshop.png", name: "Photoshop", category: "Design", proficiency: 75 },
-        { src: "/icons/postman.png", name: "Postman", category: "Tools", proficiency: 90 },
-        { src: "/icons/psql.png", name: "PostgreSQL", category: "Database", proficiency: 85 },
-        { src: "/icons/python.png", name: "Python", category: "Backend", proficiency: 90 },
-        { src: "/icons/react.png", name: "React", category: "Frontend", proficiency: 95 },
-        { src: "/icons/typescript.png", name: "TypeScript", category: "Frontend", proficiency: 90 },
-        { src: "/icons/VScode.png", name: "VS Code", category: "Tools", proficiency: 95 },
-        { src: "/icons/Tailwind.svg", name: "Tailwind CSS", category: "Frontend", proficiency: 90 },
+        { src: "/icons/kali.png"},
+        { src: "/icons/mongodb.png"},
+        { src: "/icons/node.png"},
+        { src: "/icons/photoshop.png"},
+        { src: "/icons/postman.png"},
+        { src: "/icons/psql.png"},
+        { src: "/icons/python.png"},
+        { src: "/icons/react.png"},
+        { src: "/icons/typescript.png"},
+        { src: "/icons/VScode.png"},
+        { src: "/icons/Tailwind.svg"},
     ]
 
     // Category colors
@@ -105,41 +104,14 @@ const Marquee = () => {
         <motion.div
             key={`${direction}-${index}`}
             className="relative group"
-            onMouseEnter={() => setHoveredLogo(logo.name)}
-            onMouseLeave={() => setHoveredLogo(null)}
             whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
         >
-            <div
-                className={`flex flex-col items-center justify-center p-4 rounded-xl transition-all duration-300 ${
-                    hoveredLogo === logo.name ? "bg-gray-800 shadow-[0_0_15px_rgba(255,255,255,0.3)]" : "bg-transparent"
-                }`}
-            >
+            <div className="flex flex-col items-center justify-center p-4 rounded-xl transition-all duration-300 bg-transparent">
                 <img
                     src={logo.src || "/placeholder.svg"}
                     alt={logo.name}
                     className="h-16 w-16 object-contain transition-all duration-300"
                 />
-
-                {hoveredLogo === logo.name && (
-                    <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="mt-2 text-center">
-                        <p className="text-sm font-medium">{logo.name}</p>
-                        <div className="mt-1 w-full bg-gray-700 rounded-full h-1.5">
-                            <div
-                                className="h-1.5 rounded-full"
-                                style={{
-                                    width: `${logo.proficiency}%`,
-                                    backgroundColor: categoryColors[logo.category],
-                                }}
-                            ></div>
-                        </div>
-                        <span
-                            className="text-xs mt-1 px-2 py-0.5 rounded-full"
-                            style={{ backgroundColor: categoryColors[logo.category] }}
-                        >
-              {logo.category}
-            </span>
-                    </motion.div>
-                )}
             </div>
         </motion.div>
     )
@@ -205,7 +177,7 @@ const Marquee = () => {
                                         <div
                                             className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold">
                                             <img
-                                                src="/img/bj.png"/>
+                                                src="/img/bj1.JPG"/>
                                         </div>
                                     </div>
                                     <motion.div
@@ -371,7 +343,7 @@ const Marquee = () => {
 
                         <p className="text-xl text-gray-300 max-w-2xl text-center mb-12">
                             My technical toolkit spans across multiple domains, from frontend and backend development to mobile apps
-                            and DevOps. Hover over each technology to see my proficiency level.
+                            and DevOps. Each icon represents a technology in my arsenal.
                         </p>
 
                         {/* Category legend */}
@@ -433,4 +405,3 @@ const Marquee = () => {
 }
 
 export default Marquee
-
