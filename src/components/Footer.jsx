@@ -1,5 +1,6 @@
 import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
 import { CiCoffeeCup } from "react-icons/ci";
+import TextPressure from './TextPressure';
 
 const socialLinks = [
     { href: "https://discord.gg/9hQWXXKCvj", icon: <FaDiscord /> },
@@ -10,13 +11,32 @@ const socialLinks = [
 
 const Footer = () => {
     return (
-        <footer className="w-screen bg-[#5542ff] py-4 text-black">
-            <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
-                <p className="text-center text-sm font-light md:text-left">
-                    ©Bhuvii 2024. All rights reserved
-                </p>
+        <footer className="w-screen bg-[#5542ff] py-12 text-black relative">
+            <div className="container mx-auto flex flex-col items-center justify-center px-4">
+                {/* Large TextPressure component with reduced letter spacing */}
+                <div className="w-full flex justify-center pb-10">
+                    <TextPressure
+                        text="Bhuvii"
+                        flex={true}
+                        alpha={false}
+                        stroke={false}
+                        width={true}
+                        weight={true}
+                        italic={true}
+                        textColor="black"
+                        strokeColor="#ff0000"
+                        minFontSize={64} // Larger font size
+                        letterSpacing="-2px" // Reducing space between letters
+                    />
+                </div>
 
-                <div className="flex justify-center gap-4  md:justify-start">
+                {/* Bottom left and right sections */}
+                <div className="absolute bottom-4 left-4">
+                    <p className="text-sm font-light">
+                        ©Bhuvii 2025. All rights reserved
+                    </p>
+                </div>
+                <div className="absolute bottom-4 right-4 flex gap-4">
                     {socialLinks.map((link, index) => (
                         <a
                             key={index}
@@ -29,7 +49,6 @@ const Footer = () => {
                         </a>
                     ))}
                 </div>
-
             </div>
         </footer>
     );

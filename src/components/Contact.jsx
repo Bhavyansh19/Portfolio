@@ -1,6 +1,7 @@
 import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
 
+
 const ImageClipBox = ({ src, clipClass }) => (
     <div className={clipClass}>
         <img src={src} />
@@ -16,7 +17,6 @@ const Contact = () => {
                         <b>Got an Idea?</b>
                     </p>
 
-                    {/* Title */}
                     <AnimatedTitle
                         title="Desig<b>n</b>. <br /> D<b>e</b>velop. <br /> Domin<b>a</b>te."
                         className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !leading-[.9]"
@@ -25,7 +25,7 @@ const Contact = () => {
                     <div
                         className="absolute top-0 left-0 w-full h-full flex items-center justify-center z-10 opacity-5">
                         <p className="font-zentry !text-[35rem] md:!text-[40rem] text-black !leading-[.9]">
-                            2024
+                            2025
                         </p>
                     </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
                         <Button
                             title="View CV"
                             containerClass="cursor-pointer"
-                            onClick={() => window.open('https://drive.google.com/file/d/1c6VZbXvTthSK9eJWDRyINoZugMgSnIVr/view', '_blank')}
+                            onClick={() => window.open('https://drive.google.com/file/d/1ke7lvGcFg8A5xDNpDKwdzKWUDertmD3E/view?usp=sharing', '_blank')}
                         />
                     </div>
                 </div>
