@@ -81,8 +81,14 @@ const Home = () => {
         });
     });
 
-    const getVideoSrc = (index) =>
-        `https://res.cloudinary.com/dyptshrbj/video/upload/v1745947073/hero-${index}.mp4`;
+    const videoUrls = [
+        "https://res.cloudinary.com/dyptshrbj/video/upload/v1745947073/hero-1.mp4",
+        "https://res.cloudinary.com/dyptshrbj/video/upload/v1745947059/hero-2.mp4",
+        "https://res.cloudinary.com/dyptshrbj/video/upload/v1745946674/hero-3.mp4",
+        "https://res.cloudinary.com/dyptshrbj/video/upload/v1745947024/hero-4.mp4"
+    ];
+
+    const getVideoSrc = (index) => videoUrls[(index - 1) % videoUrls.length];
 
     return (
         <div className="relative h-dvh w-screen overflow-x-hidden" id='home'>
