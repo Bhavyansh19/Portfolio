@@ -15,31 +15,31 @@ const Marquee = () => {
 
     // Tech logos
     const logosSet1 = [
-        { src: "/icons/bootstrap.png"},
-        { src: "/icons/dart.png"},
-        { src: "/icons/docker.png"},
-        { src: "/icons/excel.png"},
-        { src: "/icons/figma.png"},
-        { src: "/icons/flutter.png"},
-        { src: "/icons/git.png"},
-        { src: "/icons/github.png"},
-        { src: "/icons/go.png"},
-        { src: "/icons/java.png"},
-        { src: "/icons/js.png"},
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946554/bootstrap.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946554/dart.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946555/docker.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946555/excel.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946556/figma.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946556/flutter.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946556/git.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946557/github.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946557/go.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946558/java.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946558/js.png" }
     ]
 
     const logosSet2 = [
-        { src: "/icons/kali.png"},
-        { src: "/icons/mongodb.png"},
-        { src: "/icons/node.png"},
-        { src: "/icons/photoshop.png"},
-        { src: "/icons/postman.png"},
-        { src: "/icons/psql.png"},
-        { src: "/icons/python.png"},
-        { src: "/icons/react.png"},
-        { src: "/icons/typescript.png"},
-        { src: "/icons/VScode.png"},
-        { src: "/icons/Tailwind.svg"},
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946559/kali.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946560/mongodb.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946561/node.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946561/photoshop.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946563/postman.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946562/psql.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946564/python.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946563/react.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946565/typescript.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946566/VScode.png" },
+        { src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946564/Tailwind.svg" }
     ]
 
     // Category colors
@@ -177,7 +177,7 @@ const Marquee = () => {
                                         <div
                                             className="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold">
                                             <img
-                                                src="/img/bj1.JPG"/>
+                                                src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946534/bj1.jpg"/>
                                         </div>
                                     </div>
                                     <motion.div

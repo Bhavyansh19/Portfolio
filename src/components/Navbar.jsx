@@ -68,7 +68,7 @@ const NavBar = () => {
             <header className="absolute top-1/2 w-full -translate-y-1/2">
                 <nav className="flex items-center justify-between px-4 py-2">
                     <div className="flex items-center gap-5">
-                        <img src="/img/logo.png" alt="logo" className="w-10"/>
+                        <img src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946523/logo.png" alt="logo" className="w-10"/>
 
                         <Button
                             id="product-button"

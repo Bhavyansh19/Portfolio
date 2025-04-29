@@ -81,7 +81,8 @@ const Home = () => {
         });
     });
 
-    const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
+    const getVideoSrc = (index) =>
+        `https://res.cloudinary.com/dyptshrbj/video/upload/v1745947073/hero-${index}.mp4`;
 
     return (
         <div className="relative h-dvh w-screen overflow-x-hidden" id='home'>

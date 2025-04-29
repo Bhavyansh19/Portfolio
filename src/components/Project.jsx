@@ -179,7 +179,7 @@ const Project = () => {
             <div className="container mx-auto px-3 md:px-10">
                 <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
                     <BentoCard
-                        src="img/GemmyWhy.png"
+                        src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946526/GemmyWhy.png"
                         title={
                             <>
                                 Gemm<b>y</b>Why
@@ -195,7 +195,7 @@ const Project = () => {
                 <div className="grid h-auto md:h-[135vh] w-full grid-cols-1 md:grid-cols-2 grid-rows-auto md:grid-rows-3 gap-7">
                     <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2 h-96 md:h-auto">
                         <BentoCard
-                            src="img/sign.png"
+                            src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946524/sign.png"
                             title={
                                 <>
                                     Sig<b>n</b>ature pad
@@ -210,7 +210,7 @@ const Project = () => {
 
                     <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 h-96 md:h-auto">
                         <BentoCard
-                            src="img/MovieApp.png"
+                            src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946538/MovieApp.png"
                             title={
                                 <>
                                     Movi<b>e</b> App
@@ -225,7 +225,7 @@ const Project = () => {
 
                     <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 h-96 md:h-auto">
                         <BentoCard
-                            src="/img/Elysium.png"
+                            src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946541/Elysium.png"
                             title={
                                 <>
                                     Elys<b>i</b>um
@@ -252,7 +252,7 @@ const Project = () => {
 
                     <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 h-96 md:h-auto">
                         <BentoCard
-                            src="img/SpiderType.png"
+                            src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946525/SpiderType.png"
                             title={
                                 <>
                                     Spide<b>r</b> Type
