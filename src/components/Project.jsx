@@ -215,8 +215,8 @@ const Project = () => {
               }
               description="AI Photo Colorizer: Automatically restore and colorize old black-and-white photos using Deep Learning and OpenCV."
               technologies={["Python", "OpenCV", "Deep Learning", "Caffe"]}
-              l
-              link="https://github.com/Bhavyansh19/AI-Photo-Colorizer.git"
+              isComingSoon
+              link="https://github.com/Bhavyansh19/AI-Photo-Colorizer"
             />
           </BentoTilt>
 
