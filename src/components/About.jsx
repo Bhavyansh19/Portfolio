@@ -19,7 +19,7 @@ const Marquee = () => {
       src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946554/bootstrap.png",
     },
     {
-      src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946554/dart.png",
+      src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1768668975/NumPy_lorde4.png",
     },
     {
       src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946555/docker.png",
@@ -31,7 +31,7 @@ const Marquee = () => {
       src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946556/figma.png",
     },
     {
-      src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946556/flutter.png",
+      src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1768668970/Pandas_tnxi5m.png",
     },
     {
       src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946556/git.png",
@@ -52,7 +52,7 @@ const Marquee = () => {
 
   const logosSet2 = [
     {
-      src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946559/kali.png",
+      src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1768668965/scikit-learn_vlyfpz.png",
     },
     {
       src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946560/mongodb.png",
@@ -61,7 +61,7 @@ const Marquee = () => {
       src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946561/node.png",
     },
     {
-      src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946561/photoshop.png",
+      src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1768668958/TensorFlow_zweu7r.png",
     },
     {
       src: "https://res.cloudinary.com/dyptshrbj/image/upload/v1745946563/postman.png",
@@ -105,10 +105,23 @@ const Marquee = () => {
         {
           icon: "💻",
           label: "Full-Stack Development",
-          details: "Java, React, Node.js, MongoDB",
+          details: "Java, React, Node.js, MongoDB, PostgreSQL",
         },
-        { icon: "📱", label: "App Development", details: "Flutter, Dart" },
-        { icon: "☁️", label: "Cloud & DevOps", details: "AWS, Docker" },
+        {
+          icon: "🤖",
+          label: "Data Science & ML",
+          details: "Python, Scikit-learn, NumPy, Pandas, TensorFlow (Basics)",
+        },
+        {
+          icon: "✨",
+          label: "Generative AI",
+          details: "Prompt Engineering, LLM APIs, Text Generation (Basics)",
+        },
+        {
+          icon: "☁️",
+          label: "Cloud & DevOps",
+          details: "AWS, Docker",
+        },
       ],
     },
     education: {
@@ -117,7 +130,7 @@ const Marquee = () => {
         {
           year: "2022-2026",
           degree: "B.Tech in Computer Science",
-          institution: "Vellore Institute of Technology Bhopal",
+          institution: "Vellore Institute of Technology",
         },
       ],
     },
@@ -137,9 +150,9 @@ const Marquee = () => {
         },
         { icon: "🚴", label: "Cycling", details: "Exploring new trails" },
         {
-          icon: "⛰️",
-          label: "Adventures",
-          details: "Hiking & exploring nature",
+          icon: "🌴",
+          label: "Beaches",
+          details: "Ocean & exploring nature",
         },
       ],
     },
@@ -274,9 +287,10 @@ const Marquee = () => {
                 </h1>
 
                 <p className="text-xl text-gray-600 mb-6 text-center md:text-left">
-                  A passionate Full-Stack & App Developer with expertise in
-                  Java, Python, and React. I love crafting interactive
-                  experiences and solving challenging problems.
+                  A passionate Full-Stack Developer experienced in Java, Python,
+                  and React, expanding into Data Science and Machine Learning. I
+                  enjoy crafting interactive experiences and solving complex
+                  problems.
                 </p>
               </motion.div>
 
@@ -438,8 +452,8 @@ const Marquee = () => {
 
             <p className="text-xl text-gray-300 max-w-2xl text-center mb-12">
               My technical toolkit spans across multiple domains, from frontend
-              and backend development to mobile apps and DevOps. Each icon
-              represents a technology in my arsenal.
+              and backend development to ML and Data Science and DevOps. Each
+              icon represents a technology in my arsenal.
             </p>
 
             {/* Category legend */}
