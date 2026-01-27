@@ -5,8 +5,8 @@ import TextPressure from "./TextPressure";
 const socialLinks = [
   { href: "https://discord.gg/9hQWXXKCvj", icon: <FaDiscord /> },
   { href: "https://github.com/Bhavyansh19", icon: <FaGithub /> },
-  { href: "www.linkedin.com/in/bhavyansh19", icon: <FaLinkedin /> },
-  { href: "buymeacoffee.com/bhuvii", icon: <CiCoffeeCup /> },
+  { href: "https://www.linkedin.com/in/bhavyansh19/", icon: <FaLinkedin /> },
+  { href: "https://buymeacoffee.com/Bhuvii", icon: <CiCoffeeCup /> },
 ];
 
 const Footer = () => {

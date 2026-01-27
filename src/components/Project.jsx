@@ -182,9 +182,9 @@ const Project = () => {
             containerClass="special-font w-full font-zentry text-5xl !leading-[.9]"
           />
           <p className="text-blue-50 max-w-2xl mx-auto mt-6 px-4">
-            A showcase of my recent work, demonstrating my skills in web
-            development, UI/UX design, and problem-solving. Each project
-            represents a unique challenge and solution.
+            An overview of my current learning and practical work in full-stack
+            web development, data science, and Python, driven by
+            experimentation, problem-solving, and continuous improvement.
           </p>
         </div>
       </div>
@@ -219,22 +219,6 @@ const Project = () => {
               link="https://github.com/Bhavyansh19/AI-Photo-Colorizer"
             />
           </BentoTilt>
-
-          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 h-96 md:h-auto">
-            <BentoCard
-              src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946538/MovieApp.png"
-              title={
-                <>
-                  Movi<b>e</b> App
-                </>
-              }
-              description="Users can explore Movies, mark favorites, and view them in a dedicated Favorites section"
-              technologies={["React", "TMDB API", "CSS3", "LocalStorage"]}
-              isComingSoon
-              link="https://github.com/Bhavyansh19/Movie-App"
-            />
-          </BentoTilt>
-
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 h-96 md:h-auto">
             <BentoCard
               src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946541/Elysium.png"
@@ -253,6 +237,21 @@ const Project = () => {
               ]}
               isComingSoon
               link="https://github.com/Bhavyansh19/Elysium"
+            />
+          </BentoTilt>
+
+          <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 h-96 md:h-auto">
+            <BentoCard
+              src="https://res.cloudinary.com/dyptshrbj/image/upload/v1745946538/MovieApp.png"
+              title={
+                <>
+                  Movi<b>e</b> App
+                </>
+              }
+              description="Users can explore Movies, mark favorites, and view them in a dedicated Favorites section"
+              technologies={["React", "TMDB API", "CSS3", "LocalStorage"]}
+              isComingSoon
+              link="https://github.com/Bhavyansh19/Movie-App"
             />
           </BentoTilt>
 
